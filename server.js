@@ -12,5 +12,5 @@ if (port == null || port == "") {
 }
 
 app.listen(port, function() {
-    console.log("hi")
+    console.log("Thanks to Neill")
 })
