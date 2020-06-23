@@ -1,7 +1,7 @@
 const express = require("express")
 
 const app = express();
-app.get("/chochlet", (request, response) => {
+app.get("/cho", (request, response) => {
     const amount = request.query.amount;
     response.send(`amount${amount}`)
 })
